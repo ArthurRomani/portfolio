@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(background.jpg);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border-bottom: 5px solid #ffffff;
+  }
+
+  header H1{
+    font-size: 50px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #00BFFF;
+  }
+
+  main{
+    height: 100vh;
+    margin-right: 300px;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .main-img {
+    width: 30%;
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+    margin-left: 140px;
+  }
+  
+  .main-text {
+    width: 40%;
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  footer p{
+    font-size: 10px;
+  }
+
+  .icons-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .icon h2 {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .icon2 img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+
+  .icon2 h2{
+    font-size: 15px;
+  }
+
+  footer img{
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+  }
+
+  footer{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: #333;
+    height: 40px;
+    position: relative;
+  }
